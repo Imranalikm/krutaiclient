@@ -1,0 +1,22 @@
+.home-sec-one{
+    background: url('../../assets/Images/Comp2.gif');
+    background-size: cover; /* Cover the entire section */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center;
+    min-height: 40rem;
+}
+
+.sec-one-title{
+    height: 20rem;
+    
+}
+
+.sec-one-title h1{
+    color: white;
+    font-size:5rem;
+    font-weight: bold;
+}
+.sec-one-title p{
+    color:white;
+
+}

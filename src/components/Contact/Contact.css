@@ -1,0 +1,160 @@
+.contact {
+  background: url("../../assets/Images/contact_bg1.png"); 
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hide-on-lg {
+    display: none;
+  }
+}
+
+
+.custom-input {
+  border: none;
+  border-radius: 10px;
+  width: 350px;
+  padding: 10px;
+  padding-right: 50px; 
+  height: 45px; 
+  background-color: #E9E9E9;
+}
+
+
+
+.custom-input::placeholder {
+  color: rgb(99, 99, 99);
+  font-weight: 450;
+  padding-left: 5px;  
+}
+
+.button-getdemo {
+  background-color: #01DDE9;
+  border-radius: 30px;
+  border: none;
+  padding: 13px 59px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.logo {
+  height: 2rem;
+}
+.logo img{
+  /* style={{ marginLeft: "45px", height: "120px", marginTop: "10px" }} */
+  height: auto;
+  width: 10rem;
+  margin-left:3.2%;
+}
+.social-media-icons{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;  
+  padding-top: 50px;
+  
+}
+.social-media-icons-mb{
+  display: flex;
+  justify-content: space-between;
+  
+  padding-top: 20px;
+  
+}
+
+.social-media-icons-mb a{
+  text-decoration: none;
+  color: #E9E9E9;
+  opacity: 60%;
+} 
+.social-media-icons a{
+  text-decoration: none;
+  color: #E9E9E9;
+  opacity: 60%;
+} 
+
+.icon{
+  font-size: 1.5rem;
+}
+
+.title{
+  margin-left: 53px;
+}
+
+.title h1{
+  font-size:"3.5rem" ;
+  color: white;
+}
+.title h1 span{
+  font-weight:bold ;
+  color:#01DDE9;
+}
+.title p{
+  color: white;
+  font-weight: lighter;
+}
+.title h2{
+  color: white;
+  font-size: 5.7rem;
+  font-weight: bold;
+}
+
+.date p{
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+  padding-right: 5.5em;
+  margin-top: rem;
+  margin-left: .5rem;
+  
+}
+.title-2{
+  margin-bottom: -2rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  .form{
+    margin-top: 55px;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .form{
+    margin-top: -35rem;
+  }
+  .title{
+    margin-left: 40px;
+    margin-top: -20rem;
+  }
+  .title h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .date p{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+    padding-right: 2em;
+    margin-top: -.8rem;
+  }
+  .title-2{
+    margin-bottom: -20px;
+  }
+  .custom-input {
+    width: 100%; /* Change width to 100% on screens smaller than 768px */
+  }
+  .row {
+    display: block; /* Change width to 100% on screens smaller than 768px */
+  }
+}
+
