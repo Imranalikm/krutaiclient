@@ -126,13 +126,12 @@
     margin-top: 42px;
   }
 } 
-@media only screen and (min-width: 1600px) and (max-width: 3git000px){
+@media only screen and (min-width: 1600px) and (max-width: 3000px){
   .icon{
     font-size: 2.2rem;
   }
-  
   .title{
-    margin-left: 5rem;
+    margin-left: 9rem;
   }
   
   .title h1{
