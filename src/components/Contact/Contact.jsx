@@ -212,10 +212,7 @@ const Contact = () => {
                 {" "}
                 <FaLinkedin className="icon hide-on-mobile" />{" "}
               </a>
-              <a href="">
-                {" "}
-                <FaInstagram className="icon hide-on-mobile" />{" "}
-              </a>
+              
             </div>
           </div>
           
@@ -340,10 +337,7 @@ const Contact = () => {
                 {" "}
                 <FaLinkedin className="icon hide-on-lg" />{" "}
               </a>
-              <a href="">
-                {" "}
-                <FaInstagram className="icon hide-on-lg" />{" "}
-              </a>
+              
             </div>
             </div>
            
