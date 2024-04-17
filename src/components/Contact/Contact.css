@@ -10,6 +10,7 @@
   .hide-on-mobile {
     display: none;
   }
+ 
 }
 
 @media only screen and (min-width: 1200px) {
@@ -53,7 +54,7 @@
   /* style={{ marginLeft: "45px", height: "120px", marginTop: "10px" }} */
   height: auto;
   width: 10rem;
-  margin-left:3.2%;
+  margin-left:2.7rem;
   margin-top:1%
 }
 .social-media-icons{
@@ -186,6 +187,11 @@
 @media only screen and (max-width: 768px) {
   .form{
     margin-top: -35rem;
+  }
+  .logo img{
+    /* style={{ marginLeft: "45px", height: "120px", marginTop: "10px" }} */
+    margin-left:1.6rem;
+    
   }
   .custom-input::placeholder {
     font-weight: 350;     
