@@ -126,7 +126,7 @@
     margin-top: 42px;
   }
 } 
-@media only screen and (min-width: 1600px) and (max-width: 3000px){
+@media only screen and (min-width: 1480px) and (max-width: 1800px){
   .icon{
     font-size: 2.2rem;
   }
@@ -222,3 +222,58 @@
   }
 }
 
+@media only screen and (min-width: 1800px) and (max-width: 3000px){
+  .icon{
+    font-size: 2.2rem;
+  }
+  .title{
+    margin-left: 6rem;
+  }
+  
+  .title h1{
+    font-size:5.4rem ;
+  }
+  .title p{
+    font-size: 1.5rem;
+  }
+  .title h2{
+    
+    font-size:8.2rem;
+    
+  }
+  
+  .date p{
+    font-size: 2.7rem;
+    color: white;
+    font-weight: bold;
+    padding-right: 5.5em;
+    margin-top: rem;
+    margin-left: .5rem;
+    
+  }
+  .title-2{
+    margin-bottom: -2.5rem;
+  }
+  .logo {
+    height: 3rem;
+  }
+  .logo img{
+    /* style={{ marginLeft: "45px", height: "120px", marginTop: "10px" }} */
+    height: auto;
+    width: 18rem;
+    margin-left: 5.2rem;
+  }
+  .custom-input {
+    border: none;
+    border-radius: 1.2rem;
+    width: 37rem;
+    padding: 1rem;
+    padding-right: 2rem; 
+    height: 4rem; 
+    background-color: #E9E9E9;
+  }
+  .custom-input::placeholder {
+    font-weight: 450;     
+  }
+  
+} 
